@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Plumhead.GitHub.io</h1>
+        <p>Lessons in iOS and OS X Development</p>
+
+
+        <p class="view"><a href="https://github.com/plumhead">View My GitHub Profile</a></p>
+<!--
+        <p class="view"><a href="https://plumhead.github.io/OSXSimpleSidebar.html">OS X Sidebars</a></p>
+        <p class="view"><a href="https://plumhead.github.io/OSXSimpleSidebar.md">Info2</a></p>
+-->
+        
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+	
+
+      </header>
+      
+      
+			<div class="container">
+			
+			{{ content }}
+			
+			</div>
+     	      
+      
+      
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
