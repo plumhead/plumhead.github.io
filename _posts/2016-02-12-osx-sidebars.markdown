@@ -23,9 +23,9 @@ The aim of this post is to understand how an *Xcode* like sidebar could be built
 
 ### Content
 
-### Protocols 7 Things
+### Protocols & Things
 
-```swift
+{% highlight swift %}
 
     enum SidebarState {
         case Open
@@ -40,7 +40,7 @@ The aim of this post is to understand how an *Xcode* like sidebar could be built
         let hideLabel   : String
     }
     
-```
+{% endhighlight %}
 
 
 ### Enter NSStackView
