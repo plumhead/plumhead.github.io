@@ -9,10 +9,10 @@
 title: Andy Calderbank's Blog
 email: andy@plumhead-software.com
 description: > # this means to ignore newlines until "baseurl:"
-  Examples of OS X & iOS development.
+  Swift developer working on iOS and OS X applications. Trys to follow a more functional approach when the Swift compiler allows it!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-twitter_username: plumheaddev
+twitter_username: PlumheadDev
 github_username:  plumhead
 
 # Build settings
