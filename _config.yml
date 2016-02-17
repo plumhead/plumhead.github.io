@@ -17,4 +17,8 @@ github_username:  plumhead
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+    syntax_highlighter : rouge
+
+
